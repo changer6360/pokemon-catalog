@@ -23,6 +23,8 @@ class PokekonDetailVC: UIViewController {
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoImg: UIImageView!
     @IBOutlet weak var evoLbl: UILabel!
+ 
+    var preCheck: Bool = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,8 +43,11 @@ class PokekonDetailVC: UIViewController {
     
     
     func updateUI(){
-       
+        if preCheck == false {
         descriptionLbl.text = pokemon.description
+        } else {
+            descriptionLbl.text = "\(pokemon.moves)"
+        }
         typeLbl.text = pokemon.type
         defenseLbl.text = pokemon.defence
         heightLbl.text = pokemon.height
@@ -66,14 +71,21 @@ class PokekonDetailVC: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func backButtonPressed(sender: AnyObject) {
         
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    @IBAction func segmentedController(sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            preCheck = false
+            updateUI()
+        } else {
+            preCheck = true
+            updateUI()
+        }
+    }
+    
 
 }
