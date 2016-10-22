@@ -1,6 +1,6 @@
-Pokemon catalog written in Swift
+Pokemon catalog written in Swift 3
 ============
-This is an exercise app written in Swift. It uses csv for parsing the main view with over 700 cells and Alamofire to parse the information for the detail view controller. 
+Pokemon catalog written in Swift and updated to version 3. It uses csv for parsing the main view with over 700 cells and Alamofire to parse the information for the detail view controller. 
 
 ---
 
