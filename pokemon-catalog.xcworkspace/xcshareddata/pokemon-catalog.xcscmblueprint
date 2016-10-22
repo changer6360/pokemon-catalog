@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FE5986B6987D233347623A81B62CADC50AB0CBEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FE5986B6987D233347623A81B62CADC50AB0CBEB" : 0,
+    "68A0524818699C650A3E0847BBE33E5695966A27" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "201D6D6B-B8A9-48C2-8FAB-20809A456F92",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FE5986B6987D233347623A81B62CADC50AB0CBEB" : "pokemon-catalog\/",
+    "68A0524818699C650A3E0847BBE33E5695966A27" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pokemon-catalog",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pokemon-catalog.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:changer6360\/weather-app-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68A0524818699C650A3E0847BBE33E5695966A27"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:changer6360\/pokemon-catalog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FE5986B6987D233347623A81B62CADC50AB0CBEB"
+    }
+  ]
+}

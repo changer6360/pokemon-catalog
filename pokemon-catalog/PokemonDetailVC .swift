@@ -57,9 +57,9 @@ class PokekonDetailVC: UIViewController {
         
         if pokemon.nextEvolutionID == "" {
             evoLbl.text = "No evolutions"
-            nextEvoImg.hidden = true
+            nextEvoImg.isHidden = true
         } else {
-            nextEvoImg.hidden = false
+            nextEvoImg.isHidden = false
             nextEvoImg.image = UIImage(named: pokemon.nextEvolutionID)
             var str = "Next Evolution: \(pokemon.nextEvolutionText)"
             
@@ -72,12 +72,12 @@ class PokekonDetailVC: UIViewController {
     }
 
     
-    @IBAction func backButtonPressed(sender: AnyObject) {
+    @IBAction func backButtonPressed(_ sender: AnyObject) {
         
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func segmentedController(sender: UISegmentedControl) {
+    @IBAction func segmentedController(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             preCheck = false
             updateUI()
